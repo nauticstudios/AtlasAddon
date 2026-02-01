@@ -2,7 +2,7 @@
 #                                                        (Nautic Studios @ (C) 2026)
 
 name: AtlasAddon
-version: '${project.version}'
+version: '0.1'
 author: 'Senkex'
 
 api-version: '1.16'
