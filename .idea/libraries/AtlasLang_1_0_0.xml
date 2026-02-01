@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="AtlasLang-1.0.0">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/AtlasLang-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../AtlasLang/target/AtlasLang-1.0.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
