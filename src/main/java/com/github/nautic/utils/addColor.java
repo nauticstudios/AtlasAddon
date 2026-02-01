@@ -1,9 +1,10 @@
 package com.github.nautic.utils;
 
+import com.github.nautic.libs.kyori.adventure.text.Component;
+import com.github.nautic.libs.kyori.adventure.text.minimessage.MiniMessage;
+import com.github.nautic.libs.kyori.adventure.text.serializer.legacy.LegacyComponentSerializer;
+
 import me.clip.placeholderapi.PlaceholderAPI;
-import net.kyori.adventure.text.Component;
-import net.kyori.adventure.text.minimessage.MiniMessage;
-import net.kyori.adventure.text.serializer.legacy.LegacyComponentSerializer;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 
