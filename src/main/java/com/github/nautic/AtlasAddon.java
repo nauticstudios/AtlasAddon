@@ -3,6 +3,7 @@ package com.github.nautic;
 import com.github.nautic.command.AtlasAddonPreview;
 import com.github.nautic.listeners.FirstJoinListener;
 import com.github.nautic.listeners.MenuListener;
+import com.github.nautic.metrics.bStats;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandMap;
@@ -36,6 +37,9 @@ public final class AtlasAddon extends JavaPlugin {
             Bukkit.getPluginManager().disablePlugin(this);
             return;
         }
+
+        int pluginId = 29135;
+        bStats metrics = new bStats(this, pluginId);
 
         AtlasAddonFileManager.generateForAllLanguages();
 
